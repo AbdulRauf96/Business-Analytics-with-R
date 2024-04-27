@@ -454,7 +454,7 @@ summary(Model_9)
 #The sample size is 4137 and the R-Squared is 0.00765 or 0.765%.
 
 #Statistical Significance of Quadratic Term
-lmtest::coeftest(sat, vcov=vcovHC)                      #Heteroskedasticity Consistent Estimators
+lmtest::coeftest(sat, vcov=vcovHC)                 #Heteroskedasticity Consistent Estimators
 
 #The quadratic term (hsize^2) is highly statistically significant because the p-value is approx. 0 (9.75*10^(-5)) and less than the 0.1% significance level.
 
